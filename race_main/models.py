@@ -11,6 +11,8 @@ class WaitingRoom(models.Model):
 class InGame(models.Model):
     player1_name = models.CharField(default='', max_length=20)
     player2_name = models.CharField(default='', max_length=20)
+    player3_name = models.CharField(default='', max_length=20)
+    player4_name = models.CharField(default='', max_length=20)
 
     def __str__(self):
         return f"{self.player1_name} {self.player1_name}"
