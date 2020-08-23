@@ -9,7 +9,7 @@ In one terminal, start the **Django** server:
 ```
 $ gunicorn -b 0.0.0.0 config_prj.wsgi
 ```
-In a second terminal, use **curl** to test the **REST API**:
+In a second terminal, use **curl** to test the **REST API**, the response must be:
 ```
 $ curl http://127.0.0.1:8000/test/ | jq                    127 ↵
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
