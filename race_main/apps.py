@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class OlrApiConfig(AppConfig):
-    name = 'olr_api'
+    name = 'race_main'

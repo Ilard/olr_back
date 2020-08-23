@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'olr_api',
+    'race_main',
 ]
 
 MIDDLEWARE = [
