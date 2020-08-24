@@ -25,3 +25,5 @@ $ curl http://127.0.0.1:8000/test/ | jq                    127 ↵
   ]
 }
 ```
+## Screen
+![](/doc/screens/home-page_2020-08-24_22-31-56.png"Rudimentary home page")
