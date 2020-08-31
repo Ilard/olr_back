@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import WaitingRoom, InGame, WinnerList
 
-# Register your models here.
+
+admin.site.register(WaitingRoom)
+admin.site.register(InGame)
+admin.site.register(WinnerList)
+

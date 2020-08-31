@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Open Led Race - Accueil{% endblock %}
+{% block content %}
+<section class="list-section">
+    <h1 class="comtent-title">Open Led Race</h1>
+    <li>
+      <ul>Status in RUN: {{ status }}</ul>
+    </li>
+    <h1>In game</h1>
+    <li>
+      {% for player in in_game %}
+        <ul>{{ player.name }}</ul>
+      {% endfor %}
+    </li>
+    <h1>Waiting room</h1>
+    <li>
+      {% for player in waiting_room %}
+        <ul>{{ player.name }}</ul>
+      {% endfor %}
+    </li>
+    <h1>Winner list</h1>
+    <li>
+      {% for player in winner_list %}
+        <ul>{{ player.name }}</ul>
+      {% endfor %}
+    </li>
+</section>
+{% endblock content %}
